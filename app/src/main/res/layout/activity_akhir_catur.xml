@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".AkhirCatur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/nav"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/bt_back"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/babyblue"
+            android:textColor="#fff"
+            android:text="Akhir Permainan"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:textSize="50sp"
+            android:text="Menang"
+            android:textAllCaps="false"
+            android:background="@drawable/bt_button"
+            android:onClick="menang"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:textSize="50sp"
+            android:text="Remis"
+            android:textAllCaps="false"
+            android:background="@drawable/bt_button"
+            android:onClick="remis"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

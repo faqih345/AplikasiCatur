@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MenuUtama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/nav"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/bt_back"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/babyblue"
+            android:textColor="#fff"
+            android:text="Menu"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Pengertian Olahraga Catur"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="@drawable/bt_button"
+            android:onClick="peng_catur"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Peraturan Olahraga Catur"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/bt_button"
+            android:onClick="per_catur"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Gerakan Buah Catur"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/bt_button"
+            android:onClick="ger_buah"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Gerakan Khusus Buah Catur"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/bt_button"
+            android:onClick="ger_khu"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="Akhir Permainan"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/bt_button"
+            android:onClick="akhir"/>
+
+    </LinearLayout>
+
+</LinearLayout>
